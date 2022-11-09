@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `d3g0zz`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.d3g0zz.com`
   },
   plugins: [{
     resolve: 'gatsby-plugin-google-analytics',
