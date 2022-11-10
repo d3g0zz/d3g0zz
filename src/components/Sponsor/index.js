@@ -23,28 +23,13 @@ const Sponsor = () => {
         <SponsorContent>
           <SponsorGrid>
             <SponsorGridItems>
-              <StaticImage
-                src="../../images/sponsor/images1.svg"
-                alt=""
-                // layout="fixed"
-                // width={192}
-              />
+              <StaticImage src="../../images/sponsor/images1.svg" alt="" />
             </SponsorGridItems>
             <SponsorGridItems>
-              <StaticImage
-                src="../../images/sponsor/images2.svg"
-                alt=""
-                // layout="fixed"
-                // width={192}
-              />
+              <StaticImage src="../../images/sponsor/images2.svg" alt="" />
             </SponsorGridItems>
             <SponsorGridItems>
-              <StaticImage
-                src="../../images/sponsor/images2.svg"
-                alt=""
-                // layout="fixed"
-                // width={192}
-              />
+              <StaticImage src="../../images/sponsor/images3.svg" alt="" />
             </SponsorGridItems>
           </SponsorGrid>
         </SponsorContent>
