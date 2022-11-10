@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const WorkSection = styled.section`
+export const SponsorSection = styled.section`
   display: block;
   margin: 0 64px 256px 64px;
 
@@ -8,7 +8,7 @@ export const WorkSection = styled.section`
     margin: 0 16px 128px 16px;
   }
 `;
-export const WorkContent = styled.div`
+export const SponsorContent = styled.div`
   width: 100%;
   max-width: 1140px;
   margin-right: auto;
@@ -16,7 +16,7 @@ export const WorkContent = styled.div`
   align-self: center;
   flex: 1;
 `;
-export const WorkContentH1 = styled.h1`
+export const SponsorContentH1 = styled.h1`
   display: block;
   max-width: 80%;
   margin-top: auto;
@@ -32,26 +32,18 @@ export const WorkContentH1 = styled.h1`
     font-size: 32px;
   }
 `;
-export const WorkGrid = styled.div`
+export const SponsorGrid = styled.div`
   display: grid;
   grid-auto-columns: 1fr;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto;
-  grid-row-gap: 16px;
-  grid-column-gap: 64px;
-
-  @media screen and (max-width: 990px) {
-    grid-column-gap: 16px;
-  }
-  @media screen and (max-width: 768px) {
-    grid-template-columns: 1fr;
-  }
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-row-gap: 0;
+  grid-column-gap: 16px;
 `;
-export const WorkGridItems = styled.div`
-  margin-bottom: 128px;
-`;
-export const WorkGridItemsImg = styled.img`
-  max-width: 100%;
-  vertical-align: middle;
-  display: inline-block;
+export const SponsorGridItems = styled.div`
+  display: flex;
+  width: 100%;
+  margin-bottom: 64px;
+  justify-content: center;
+  align-items: center;
 `;

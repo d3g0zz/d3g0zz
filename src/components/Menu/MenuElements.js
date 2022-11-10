@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "gatsby";
 
 export const MenuSection = styled.section`
   position: fixed;
@@ -12,5 +13,17 @@ export const MenuSection = styled.section`
 
   @media screen and (max-width: 768px) {
     padding: 20px 16px;
+  }
+`;
+export const MenuLink = styled(Link)`
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 100%;
+  text-decoration: none;
+
+  &:hover {
+    color: #c4c4c4;
+    transition: 0.3s ease-out;
   }
 `;

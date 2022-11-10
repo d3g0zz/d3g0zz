@@ -5,6 +5,7 @@ import Menu from "../components/Menu";
 import Header from "../components/Header";
 import Work from "../components/Work";
 import Contact from "../components/Contact";
+import Sponsor from "../components/Sponsor";
 import Footer from "../components/Footer";
 
 const IndexPage = () => {
@@ -14,6 +15,7 @@ const IndexPage = () => {
       <Menu />
       <Header />
       <Work />
+      <Sponsor />
       <Contact />
       <Footer />
     </>

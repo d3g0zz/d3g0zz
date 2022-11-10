@@ -7,7 +7,6 @@ import {
   WorkContentH1,
   WorkGrid,
   WorkGridItems,
-  WorkGridItemsImg,
 } from "../Work/WorkElements";
 
 const Work = () => {
@@ -23,12 +22,10 @@ const Work = () => {
         <WorkContent>
           <WorkGrid>
             <WorkGridItems>
-              <StaticImage src="../../images/images1.png" alt="A kitten" />
-              {/* <WorkGridItemsImg></WorkGridItemsImg> */}
+              <StaticImage src="../../images/work/images1.png" alt="" />
             </WorkGridItems>
             <WorkGridItems>
-              <StaticImage src="../../images/images2.png" alt="A kitten" />
-              {/* <WorkGridItemsImg></WorkGridItemsImg> */}
+              <StaticImage src="../../images/work/images2.png" alt="" />
             </WorkGridItems>
           </WorkGrid>
         </WorkContent>

@@ -19,4 +19,4 @@ const Enterapia = () => {
 
 export default Enterapia
 
-export const Head = () => <title>Enterapia</title>
+export const Head = () => <title>Proyecto 1</title>

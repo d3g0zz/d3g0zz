@@ -1,11 +1,13 @@
 import React from "react";
 
-import { MenuSection } from "../Menu/MenuElements";
+import { MenuSection, MenuLink } from "../Menu/MenuElements";
 
 const Menu = () => {
   return (
     <>
-      <MenuSection>D3g0Zz</MenuSection>
+      <MenuSection>
+        <MenuLink to="/">D3g0Zz</MenuLink>
+      </MenuSection>
     </>
   );
 };

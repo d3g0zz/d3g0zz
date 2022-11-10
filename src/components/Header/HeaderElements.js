@@ -21,19 +21,16 @@ export const HeaderH1 = styled.h1`
   max-width: 80%;
   margin-top: auto;
   margin-bottom: 32px;
-  background-color: transparent;
-  font-size: 72px;
-  line-height: 100%;
+  font-size: 66px;
+  line-height: 120%;
   font-weight: 700;
-  letter-spacing: 0px;
-  object-fit: fill;
 
   @media screen and (max-width: 990px) {
-    font-size: 48px;
     max-width: 100%;
+    font-size: 54px;
   }
   @media screen and (max-width: 768px) {
-    font-size: 32px;
+    font-size: 44px;
   }
 `;
 export const HeaderP = styled.p`
@@ -42,7 +39,7 @@ export const HeaderP = styled.p`
   max-width: none;
   color: #c4c4c4;
   font-size: 18px;
-  line-height: 150%;
+  line-height: 120%;
   font-weight: 400;
 
   @media screen and (max-width: 768px) {

@@ -30,10 +30,10 @@ export const ContactContentH1 = styled.h1`
 
   @media screen and (max-width: 990px) {
     max-width: 100%;
-    font-size: 40px;
+    font-size: 42px;
   }
   @media screen and (max-width: 768px) {
-    font-size: 30px;
+    font-size: 32px;
   }
 `;
 export const ContactContentLink = styled(Link)`
