@@ -1,6 +1,12 @@
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
-})
+if (process.env.GATSBY_NODE_VERSION) {
+  require("dotenv").config({
+    path: `.env.${process.env.NODE_ENV}.gatsby_node_version`,
+  })
+} else {
+  require("dotenv").config({
+    path: `.env.${process.env.NODE_ENV}`,
+  })
+}
 
 module.exports = {
   siteMetadata: {
