@@ -3,8 +3,6 @@ import styled from "styled-components";
 export const WorkSection = styled.section`
   display: block;
   margin: 0 64px 256px 64px;
-  justify-content: flex-start;
-  align-items: center;
 `;
 export const WorkContent = styled.div`
   width: 100%;
@@ -19,11 +17,16 @@ export const WorkContentH1 = styled.h1`
   max-width: 80%;
   margin-top: auto;
   margin-bottom: 64px;
-  font-size: 64px;
+  font-size: 39px;
   line-height: 100%;
   font-weight: 700;
-  letter-spacing: 0;
-  object-fit: fill;
+
+  @media screen and (max-width: 990px) {
+    font-size: 29px;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 30px;
+  }
 `;
 export const WorkGrid = styled.div`
   display: grid;
@@ -32,6 +35,13 @@ export const WorkGrid = styled.div`
   grid-template-rows: auto auto;
   grid-row-gap: 16px;
   grid-column-gap: 64px;
+
+  @media screen and (max-width: 990px) {
+    grid-column-gap: 16px;
+  }
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `;
 export const WorkGridItems = styled.div`
   margin-bottom: 128px;
