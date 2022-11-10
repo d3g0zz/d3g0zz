@@ -29,7 +29,7 @@ module.exports = {
       options: {
         fonts: [
           `Roboto Mono`,
-          `source sans pro\:400`, // you can also specify font weights and styles
+          `source sans pro\:300,400,600,700`, // you can also specify font weights and styles
         ],
         display: "swap",
       },

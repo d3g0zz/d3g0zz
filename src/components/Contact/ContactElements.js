@@ -19,8 +19,8 @@ export const ContactContentH1 = styled.h1`
   max-width: 80%;
   margin-top: auto;
   margin-bottom: 64px;
-  font-size: 64px;
-  line-height: 100%;
+  font-size: 55px;
+  line-height: 110%;
   font-weight: 700;
   letter-spacing: 0px;
   object-fit: fill;

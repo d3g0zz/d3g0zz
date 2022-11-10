@@ -1,25 +1,22 @@
-import * as React from "react";
+import * as React from "react"
 
 import { GlobalStyle } from "../components/styles/GlobalStyles";
 import Menu from "../components/Menu";
-import Header from "../components/Header";
-import Work from "../components/Work";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
-const IndexPage = () => {
+const Enterapia = () => {
   return (
     <>
       <GlobalStyle />
       <Menu />
-      <Header />
-      <Work />
       <Contact />
       <Footer />
     </>
   );
-};
+  
+}
 
-export default IndexPage;
+export default Enterapia
 
-export const Head = () => <title>D3g0Zz - Designer UX/UI & Front-End</title>;
+export const Head = () => <title>Enterapia</title>

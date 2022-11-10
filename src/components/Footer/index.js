@@ -1,13 +1,54 @@
 import React from "react";
+import { Link } from "gatsby";
 
-import { FooterSection, FooterContent, FooterGrid } from "./FooterElements";
+import {
+  FooterSection,
+  FooterContent,
+  FooterGrid,
+  FooterGridItems,
+  FooterGridItemsH1,
+  FooterGridItemsP,
+  FooterRights,
+  FooterRightsP,
+} from "./FooterElements";
+
+const email = {
+  display: "block",
+  transition: "opacity 200ms ease",
+  lineHeight: "100%",
+  fontSize: "14px",
+  fontWeight: "700",
+  border: "1px none #000",
+  textDecoration: "none",
+};
 
 const Footer = () => {
   return (
     <FooterSection>
       <FooterContent>
-        <FooterGrid>Footer</FooterGrid>
+        <FooterGrid>
+          <FooterGridItems>
+            <FooterGridItemsH1>Ubicado en —</FooterGridItemsH1>
+            <FooterGridItemsP>Rionegro (Ant), Colombia</FooterGridItemsP>
+          </FooterGridItems>
+          <FooterGridItems>
+            <FooterGridItemsH1>Contacto —</FooterGridItemsH1>
+            <FooterGridItemsP>
+              <Link
+                style={email}
+                to="mailto:h1d3g0zz@gmail.com?subject=¡Vamos a trabajar juntos!"
+              >
+                h1d3g0zz@gmail.com
+              </Link>
+            </FooterGridItemsP>
+          </FooterGridItems>
+        </FooterGrid>
       </FooterContent>
+      <FooterRights>
+        <FooterRightsP>
+          © D3g0Zz 2022. All rights reserved.
+        </FooterRightsP>
+      </FooterRights>
     </FooterSection>
   );
 };
