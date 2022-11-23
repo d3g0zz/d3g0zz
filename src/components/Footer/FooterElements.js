@@ -53,9 +53,6 @@ export const FooterRights = styled.div`
   padding-bottom: 32px;
   flex: 1;
   text-align: left;
-
-  @media screen and (max-width: 768px) {
-  }
 `;
 export const FooterRightsP = styled.p`
   display: block;
