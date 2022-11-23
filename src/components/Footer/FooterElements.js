@@ -24,7 +24,7 @@ export const FooterGrid = styled.div`
   grid-auto-columns: 1fr;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
 
   @media screen and (max-width: 768px) {

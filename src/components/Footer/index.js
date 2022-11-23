@@ -28,8 +28,14 @@ const Footer = () => {
       <FooterContent>
         <FooterGrid>
           <FooterGridItems>
-            <FooterGridItemsH1>Ubicado en —</FooterGridItemsH1>
-            <FooterGridItemsP>Rionegro (Ant), Colombia</FooterGridItemsP>
+            <FooterGridItemsH1>Social Media —</FooterGridItemsH1>
+            <Link style={email} to="https://github.com/d3g0zz">
+              Github
+            </Link>
+          </FooterGridItems>
+          <FooterGridItems>
+            <FooterGridItemsH1>Ubicado En —</FooterGridItemsH1>
+            <FooterGridItemsP>Colombia</FooterGridItemsP>
           </FooterGridItems>
           <FooterGridItems>
             <FooterGridItemsH1>Contacto —</FooterGridItemsH1>
@@ -45,9 +51,7 @@ const Footer = () => {
         </FooterGrid>
       </FooterContent>
       <FooterRights>
-        <FooterRightsP>
-          © D3g0Zz 2022. All rights reserved.
-        </FooterRightsP>
+        <FooterRightsP>© D3g0Zz 2022. All rights reserved.</FooterRightsP>
       </FooterRights>
     </FooterSection>
   );

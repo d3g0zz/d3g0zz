@@ -21,7 +21,7 @@ export const WorkContentH1 = styled.h1`
   max-width: 80%;
   margin-top: auto;
   margin-bottom: 64px;
-  font-size: 54px;
+  font-size: 38px;
   line-height: 120%;
   font-weight: 700;
 

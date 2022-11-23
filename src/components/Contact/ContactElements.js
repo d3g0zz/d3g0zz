@@ -24,7 +24,7 @@ export const ContactContentH1 = styled.h1`
   max-width: 80%;
   margin-top: auto;
   margin-bottom: 64px;
-  font-size: 54px;
+  font-size: 38px;
   line-height: 110%;
   font-weight: 700;
 
@@ -38,7 +38,7 @@ export const ContactContentH1 = styled.h1`
 `;
 export const ContactContentLink = styled(Link)`
   display: block;
-  font-size: 54px;
+  font-size: 38px;
   font-weight: 700;
   line-height: 100%;
   text-decoration: none;

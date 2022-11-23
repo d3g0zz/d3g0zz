@@ -21,7 +21,7 @@ export const HeaderH1 = styled.h1`
   max-width: 80%;
   margin-top: auto;
   margin-bottom: 32px;
-  font-size: 66px;
+  font-size: 56px;
   line-height: 120%;
   font-weight: 700;
 
@@ -38,7 +38,7 @@ export const HeaderP = styled.p`
   display: block;
   max-width: none;
   color: #c4c4c4;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 120%;
   font-weight: 400;
 
